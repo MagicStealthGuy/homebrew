@@ -1,0 +1,313 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "FeatsfortheFearsome",
+				"abbreviation": "FftF",
+				"full": "Feats for the Fearsome",
+				"version": "1",
+				"url": "https://www.patreon.com/posts/feats-for-16156471",
+				"authors": [
+					"Mage Hand Press"
+				],
+				"convertedBy": [
+					"MelodyMSG"
+				],
+				"color": "f9f06b"
+			}
+		]
+	}
+},
+	"feat": [
+		{
+			"name": "Blindfighter",
+			"source": "FftF",
+     "prerequisite": [
+				{
+					"ability": [
+						{
+							"wis": 13
+						}
+					]
+        }
+     ],
+			"entries": [
+				"You fight exceptionally well, even when you can't see. As long as you can hear, you do not have disadvantage on attack rolls you make against targets within 10 feet of you, and attack rolls against you do not have advantage as a result of a darkness, a {@condition heavily obscured} area, the attacker being invisible, or you being blinded.",
+			],
+		},
+    {
+			"name": "Brutal Grip",
+			"source": "FftF",
+      "ability": [
+				{
+					"str": 1
+				}
+			]
+			"entries": [
+				"You've learned to use the weight of your weapons effectively, and have adapted to use large weapons one-handed.",
+				{
+					"type": "list",
+					"items": [
+						"Increase your Strength score by 1, to a maximum of 20.",
+						"When wielding a versatile weapon in one hand, you may use the two-handed damage die.",
+						"You may wield a two-handed melee weapon in one hand, treating it as a one-handed weapon. You have disadvantage on attack rolls made when wielding a two-handed weapon this way."
+					],
+				},
+			],
+		},
+    {
+			"name": "Detective",
+			"source": "FftF",
+      "ability": [
+				{
+					"int": 1
+				}
+			]
+			"entries": [
+				"Your keen eye for details and mechanical acuity give you a wide set of tools to unravel any mystery that presents itself. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Increase your Intelligence score by 1, to a maximum of 20.",
+						"By spending 1 minute examining a corpse that has been dead for no longer a month, you can automatically determine its cause of death.",
+						"Whenever you make a successful Intelligence (Investigation) check, you gain a +2 bonus on subsequent Intelligence (Investigation) checks you make that relate to the same topic (for example, examining multiple pieces of evidence to a single murder.) These bonuses stack with multiple successes (up to a maximum of +10), but a failed check reverts your bonus to +0.",
+            "By spending 1 minute studying a humanoid you can see, you can learn 1 thing, chosen by the GM: the target's alignment (either good/evil or lawful/chaotic, but not both), one of the target's bonds, or one of its flaws.",
+					],
+				},
+			],
+		},
+    {
+			"name": "Dilettante",
+			"source": "FftF",
+			"entries": [
+				"With a few minutes of preparation, a bit of improvisation, and some talent, you can appear proficient in just about anything. When you finish a long rest, you can spend 10 minutes practicing with a skill or tool to become proficient in it until you finish a long rest",
+			],
+		},
+    {
+			"name": "Early Riser",
+			"source": "FftF",
+			"entries": [
+				"By following a strict routine, you've become accustomed to resting less than others. You gain the full benefit of taking a long rest in only 4 hours, and you gain the full benefit of taking a short rest in only 30 minutes. Additionally, you regain all your expended hit dice, rather than half of them, when you take a long rest.",
+			],
+		},
+    {
+			"name": "Escape Artist",
+			"source": "FftF",
+      "ability": [
+				{
+					"dex": 1
+				}
+			]
+			"entries": [
+				"You are practiced in picking locks and slipping any type of bond, and can even do so blindfolded. You gain the following benefits",
+				{
+					"type": "list",
+					"items": [
+						"Increase your Dexterity score by 1, to a maximum of 20.",
+						"You have advantage on ability checks you make to slip bonds or escape grapple.",
+						"You can hold your breath for twice as long as normal for your race/ability scores.",
+            "You have advantage on ability checks you make to pick locks, and you can do so without thieves' tools, as long as you have some suitable instrument. Moreover, you can pick locks one-handed and when blinded."
+					],
+				},
+			],
+		},
+    {
+			"name": "Familiar Keeper",
+			"source": "FftF",
+			"entries": [
+				"You learn the {@spell find familiar|PHB|find familiar} spell, and can cast it as a ritual without expending spell components. Additionally, you can choose the following forms for you familiar: imp, pseudodragon, quasit, or sprite.",
+        "If you gain the ability to cast this spell by another means, you can maintain two familiars at once.",
+			],
+		},
+    {
+			"name": "Field Commander",
+			"source": "FftF",
+      "ability": [
+				{
+					"cha": 1
+				}
+			]
+			"entries": [
+				"Under your leadership, your allies fight as a cohesive unit, outmaneuvering and outflanking any enemy. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Increase your Charisma score by 1, to a maximum of 20.",
+						"As an action, you can issue an order to an ally within 60 feet that can hear you. They can then use their reaction to take one of the following actions: {@action Attack} (one attack only), {@action Dash}, {@action Disengage}, {@action Dodge}, {@action Help}, {@action Hide}, {@action Search}, or {@action Use an Object}.",
+						"While you are within 5 feet of two or more allies who aren't {@condition incapacitated}, hostile creatures can't have advantage on attack rolls against you.",
+					],
+				},
+			],
+		},
+    {
+			"name": "Focused Critical",
+			"source": "FftF",
+			"entries": [
+				"You've honed your combat skills to seize on any opening you're presented. When you choose this feat, select ranged weapon attacks or melee weapon attacks. You score a critical hit on a roll of 19 or 20 with attack rolls of that type",
+        "You can choose this feat more than once, selecting a different attack type each time.",
+			],
+		},
+    {
+			"name": "Gatecrasher",
+			"source": "FftF",
+      "prerequisite": [
+        {
+					"ability": [
+						{
+							"str": 13
+						}
+					]
+        }
+      ],
+			"entries": [
+				"Whereas others inch cautiously through dungeons and stealthily scale enemy fortifications, you've found it easier to barrel right through your obstacles. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You have advantage on Dexterity saving throws against effects that you can see, such as traps and spells. To gain this benefit, you can't be blinded, deafened, or incapacitated.",
+						"You have advantage on Strength checks you make to break down doors and demolish obstacles.",
+						"When you make a successful Shove action against a creature holding a shield, you can choose to disarm the target of the shield instead of pushing it or knocking it prone. You can hold the shield yourself or throw it to any location within 30 feet."
+					],
+				},
+			],
+		},
+    {
+			"name": "title",
+			"source": "FftF",
+      "prerequisite": [
+        {
+          "otherSummary": {
+            "entry": "",
+            "entrySummary": "",
+          }
+        }
+      ],
+			"entries": [
+				"text",
+				{
+					"type": "list",
+					"items": [
+						"list",
+						"list",
+						"list"
+					],
+				},
+			],
+		},
+    {
+			"name": "title",
+			"source": "FftF",
+      "prerequisite": [
+        {
+          "otherSummary": {
+            "entry": "",
+            "entrySummary": "",
+          }
+        }
+      ],
+			"entries": [
+				"text",
+				{
+					"type": "list",
+					"items": [
+						"list",
+						"list",
+						"list"
+					],
+				},
+			],
+		},
+    {
+			"name": "title",
+			"source": "FftF",
+      "prerequisite": [
+        {
+          "otherSummary": {
+            "entry": "",
+            "entrySummary": "",
+          }
+        }
+      ],
+			"entries": [
+				"text",
+				{
+					"type": "list",
+					"items": [
+						"list",
+						"list",
+						"list"
+					],
+				},
+			],
+		},
+    {
+			"name": "title",
+			"source": "FftF",
+      "prerequisite": [
+        {
+          "otherSummary": {
+            "entry": "",
+            "entrySummary": "",
+          }
+        }
+      ],
+			"entries": [
+				"text",
+				{
+					"type": "list",
+					"items": [
+						"list",
+						"list",
+						"list"
+					],
+				},
+			],
+		},
+    {
+			"name": "title",
+			"source": "FftF",
+      "prerequisite": [
+        {
+          "otherSummary": {
+            "entry": "",
+            "entrySummary": "",
+          }
+        }
+      ],
+			"entries": [
+				"text",
+				{
+					"type": "list",
+					"items": [
+						"list",
+						"list",
+						"list"
+					],
+				},
+			],
+		},
+    {
+			"name": "title",
+			"source": "FftF",
+      "prerequisite": [
+        {
+          "otherSummary": {
+            "entry": "",
+            "entrySummary": "",
+          }
+        }
+      ],
+			"entries": [
+				"text",
+				{
+					"type": "list",
+					"items": [
+						"list",
+						"list",
+						"list"
+					],
+				},
+			],
+		},
+	],
+}
