@@ -159,9 +159,9 @@
                     {
                         "type": "list",
                         "items": [
-                            "You have advantage on Dexterity saving throws against effects that you can see, such as traps and spells. To gain this benefit, you can't be blinded, deafened, or incapacitated.",
+                            "You have advantage on Dexterity saving throws against effects that you can see, such as traps and spells. To gain this benefit, you can't be {@condition blinded}, {@condition deafened}, or {@condition incapacitated}.",
                             "You have advantage on Strength checks you make to break down doors and demolish obstacles.",
-                            "When you make a successful Shove action against a creature holding a shield, you can choose to disarm the target of the shield instead of pushing it or knocking it prone. You can hold the shield yourself or throw it to any location within 30 feet."
+                            "When you make a successful {@action Shove} action against a creature holding a shield, you can choose to disarm the target of the shield instead of pushing it or knocking it {@condition prone}. You can hold the shield yourself or throw it to any location within 30 feet."
                         ]
                     }
                 ]
