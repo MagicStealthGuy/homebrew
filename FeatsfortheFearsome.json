@@ -31,7 +31,7 @@
                 }
             ],
             "entries": [
-            "You fight exceptionally well, even when you can't see. As long as you can hear, you do not have disadvantage on attack rolls you make against targets within 10 feet of you, and attack rolls against you do not have advantage as a result of a {@condition darkness}, a {@condition heavily obscured} area, the attacker being {@condition invisible}, or you being {@condition blinded}."
+            	"You fight exceptionally well, even when you can't see. As long as you can hear, you do not have disadvantage on attack rolls you make against targets within 10 feet of you, and attack rolls against you do not have advantage as a result of a {@condition darkness}, a {@condition heavily obscured} area, the attacker being {@condition invisible}, or you being {@condition blinded}."
             ]
         },
         { 
