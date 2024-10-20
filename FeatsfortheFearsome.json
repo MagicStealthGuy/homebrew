@@ -218,7 +218,7 @@
             "prerequisite": [
                 {
                     "otherSummary": {
-                        "entry": "Master Thrower feat, proficiency with weapon javelins",
+                        "entry": "{@feat Master Thrower|FftF|Master Thrower} feat, proficiency with {@weapon javelins}",
                         "entrySummary": "Prof javelins/Master Thrower"
                     }
                 }
@@ -244,9 +244,9 @@
                     "type": "list",
                     "items": [
                         "The spell's range is 120 feet.",
-                        "You can maintain any number of the spell's non- instantaneous effects at once, each of which can last up to an hour.",
+                        "You can maintain any number of the spell's non-instantaneous effects at once, each of which can last up to an hour.",
                         "The spell can produce larger sensory effects and illusions. Visuals effects and illusions can be up to 10 feet in diameter and sensory effects can include other magical trappings, such as the ground rumbling, rushing winds, mystical glowing, levitating rocks, and so on.",
-                        "You can use the cantrip to appear to cast much more powerful spells. When you do so, choose a spell effect to emulate within 120 feet and make a Charisma (Deception) roll contested by a Wisdom (Insight) check of anyone witnessing it. You have advantage on the roll if the creature observing it is not proficient with the Arcana skill. You instead have disadvantage on the roll if the emulated spell directly interacts with the creature or the spell contradicts itself. For example, if you choose to emulate the effect of the spell {@pell sleet storm|PHB| sleet storm} (sheets of freezing rain), you have disadvantage on the check if the spell's radius includes the viewer (since the viewer would realize that the spell's effects are intangible), or if they noticed that the spell did not create wet ground (since that contradicts the nature of the spell.) If you succeed, the target believes that you cast the spell."
+                        "You can use the cantrip to appear to cast much more powerful spells. When you do so, choose a spell effect to emulate within 120 feet and make a Charisma (Deception) roll contested by a Wisdom (Insight) check of anyone witnessing it. You have advantage on the roll if the creature observing it is not proficient with the Arcana skill. You instead have disadvantage on the roll if the emulated spell directly interacts with the creature or the spell contradicts itself. For example, if you choose to emulate the effect of the spell {@spell sleet storm|PHB| sleet storm} (sheets of freezing rain), you have disadvantage on the check if the spell's radius includes the viewer (since the viewer would realize that the spell's effects are intangible), or if they noticed that the spell did not create wet ground (since that contradicts the nature of the spell.) If you succeed, the target believes that you cast the spell."
                     ]
                 }
             ]
