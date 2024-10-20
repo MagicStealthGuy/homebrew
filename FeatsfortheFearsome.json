@@ -188,7 +188,7 @@
                 {
                     "otherSummary": {
                         "entry": "5th level",
-                        "entrySummary": "Lv 5"
+                        "entrySummary": "Lv 5+"
                     }
                 }
             ],
@@ -218,7 +218,7 @@
             "prerequisite": [
                 {
                     "otherSummary": {
-                        "entry": "{@feat Master Thrower|FftF|Master Thrower feat, proficiency with {@weapon javelins}",
+                        "entry": "{@feat Master Thrower|FftF|Master Thrower} feat, proficiency with {@weapon javelins}",
                         "entrySummary": "Prof javelins/Master Thrower"
                     }
                 }
