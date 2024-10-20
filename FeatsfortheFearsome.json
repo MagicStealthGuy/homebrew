@@ -18,7 +18,7 @@
 		]
 	},
     "feat": [
-        { // Blindfighter
+        { 
             "name": "Blindfighter",
             "source": "FftF",
             "prerequisite": [
@@ -34,7 +34,7 @@
             	"You fight exceptionally well, even when you can't see. As long as you can hear, you do not have disadvantage on attack rolls you make against targets within 10 feet of you, and attack rolls against you do not have advantage as a result of a {@condition darkness}, a {@condition heavily obscured} area, the attacker being {@condition invisible}, or you being {@condition blinded}."
             ]
         },
-        { // Brutal Grip
+        { 
             "name": "Brutal Grip",
             "source": "FftF",
             "ability": [
@@ -53,7 +53,7 @@
                 }
             ]
         },
-        { // Detective
+        { 
                 "name": "Detective",
                 "source": "FftF",
         "ability": [
@@ -73,21 +73,21 @@
                     }
                 ]
         },
-        { // Dilettante
+        { 
                 "name": "Dilettante",
                 "source": "FftF",
                 "entries": [
                     "With a few minutes of preparation, a bit of improvisation, and some talent, you can appear proficient in just about anything. When you finish a long rest, you can spend 10 minutes practicing with a skill or tool to become proficient in it until you finish a long rest"
                 ]
         },
-        { // Early Riser
+        { 
                 "name": "Early Riser",
                 "source": "FftF",
                 "entries": [
                     "By following a strict routine, you've become accustomed to resting less than others. You gain the full benefit of taking a long rest in only 4 hours, and you gain the full benefit of taking a short rest in only 30 minutes. Additionally, you regain all your expended hit dice, rather than half of them, when you take a long rest."
                 ]
         },
-        { // Escape Artist
+        { 
                 "name": "Escape Artist",
                 "source": "FftF",
         "ability": [
@@ -107,7 +107,7 @@
                     }
                 ]
         },
-        { // Familiar Keeper
+        {
                 "name": "Familiar Keeper",
                 "source": "FftF",
                 "entries": [
