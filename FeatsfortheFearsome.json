@@ -111,7 +111,7 @@
                 "name": "Familiar Keeper",
                 "source": "FftF",
                 "entries": [
-                    "You learn the {@spell find familiar|PHB|find familiar} spell, and can cast it as a ritual without expending spell components. Additionally, you can choose the following forms for you familiar: {@creature imp}, {@creature pseudodragon}, {@creature quasit}, or {creature sprite}.",
+                    "You learn the {@spell find familiar|PHB|find familiar} spell, and can cast it as a ritual without expending spell components. Additionally, you can choose the following forms for you familiar: {@creature imp}, {@creature pseudodragon}, {@creature quasit}, or {@creature sprite}.",
                     "If you gain the ability to cast this spell by another means, you can maintain two familiars at once."
                 ]
         },
@@ -138,7 +138,7 @@
                 "name": "Focused Critical",
                 "source": "FftF",
                 "entries": [
-                    "You've honed your combat skills to seize on any opening you're presented. When you choose this feat, select ranged weapon attacks or melee weapon attacks. You score a critical hit on a roll of 19 or 20 with attack rolls of that type",
+                    "You've honed your combat skills to seize on any opening you're presented. When you choose this feat, select ranged weapon attacks or melee weapon attacks. You score a critical hit on a roll of 19 or 20 with attack rolls of that type.",
             "You can choose this feat more than once, selecting a different attack type each time."
                 ]
         },
@@ -165,6 +165,115 @@
                         ]
                     }
                 ]
+        },
+        {
+            "name": "Gifted Spellcaster",
+            "source": "FftF",
+            "prerequisite": [
+                {
+                    "otherSummary": {
+                        "entry": "Spellcasting feature, spellcacting ability 13+",
+                        "entrySummary": "Spellcasting"
+                    }
+                }
+            ],
+            "entries": [
+                "Thanks to study, or simply deep introspection, you have expanded your magical potential. You learn 4 spells of your choice of 7th level or lower from your class's spell list. These spells must be for a level for which you have spell slots."
+            ]
+        },
+        {
+            "name": "Hedge Magic",
+            "source": "FftF",
+            "prerequisite": [
+                {
+                    "otherSummary": {
+                        "entry": "5th level",
+                        "entrySummary": "Lv 5"
+                    }
+                }
+            ],
+            "entries": [
+                "You are self-educated in the ways of arcana. Having learned much through experimentation and practice, you have gained exceptional insight into lower level spells. You learn one cantrip of your choice from any class's spell list. Your spellcasting ability for this cantrip is your choice of Intelligence, Wisdom, or Charisma. Once you make this choice, it can't be changed.",
+                "Additionally, cantrips you know become more potent: when you cast a cantrip that deals damage, you deal one additional die of damage to one of the cantrip’s targets."
+            ]
+        },
+        {
+            "name": "Iron Hero",
+            "source": "FftF",
+            "entries": [
+                "You have resolved yourself to save the day when all hope seems lost. You gain the following benefits:",
+                {
+                    "type": "list",
+                    "items": [
+                        "When in combat against a creature that has a CR higher than your level, you gain a +2 bonus to your AC.",
+                        "You have advantage on attack rolls against any creature that has reduced one of your allies to 0 hit points in the last round.",
+                        "If a hostile creature you can see takes a legendary action, you can use your reaction to intercede, preventing the legendary action from happening. Once you use this ability, you can't use it again until you finish a short or long rest"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Javelineer",
+            "source": "FftF",
+            "prerequisite": [
+                {
+                    "otherSummary": {
+                        "entry": "{@feat Master Thrower|FftF|Master Thrower feat, proficiency with {@weapon javelins}",
+                        "entrySummary": "Prof javelins/Master Thrower"
+                    }
+                }
+            ],
+            "entries": [
+                "Thanks to your advanced skills, you are far more deadly with a javelin than most warriors. You gain the following benefits:",
+                {
+                    "type": "list",
+                    "items": [
+                        "When you hit a target with a thrown javelin, it sticks into their body, shield, or armor, slowing them down. Their base walking speed is reduced by 10 feet until they use an action to remove the javelin.",
+                        "If you move at least 25 feet in a straight line on your turn, you have advantage on the first attack you make with a thrown javelin on that turn, as long as you are not indoors or underground.",
+                        "Before you make a thrown attack with a javelin, you can choose to take a -5 penalty to the attack roll. If the attack hits, you add +10 to the attack’s damage."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Magician",
+            "source": "FftF",
+            "entries": [
+                "Whereas true spellcasters weave profound arcane secrets into runes and gestures to produce incredible works of magic, you merely pretend to for others' amusement. You learn the {@spell prestidigitation|PHB|prestidigitation} cantrip, with the following improvements:",
+                {
+                    "type": "list",
+                    "items": [
+                        "The spell's range is 120 feet.",
+                        "You can maintain any number of the spell's non- instantaneous effects at once, each of which can last up to an hour.",
+                        "The spell can produce larger sensory effects and illusions. Visuals effects and illusions can be up to 10 feet in diameter and sensory effects can include other magical trappings, such as the ground rumbling, rushing winds, mystical glowing, levitating rocks, and so on.",
+                        "You can use the cantrip to appear to cast much more powerful spells. When you do so, choose a spell effect to emulate within 120 feet and make a Charisma (Deception) roll contested by a Wisdom (Insight) check of anyone witnessing it. You have advantage on the roll if the creature observing it is not proficient with the Arcana skill. You instead have disadvantage on the roll if the emulated spell directly interacts with the creature or the spell contradicts itself. For example, if you choose to emulate the effect of the spell {@pell sleet storm|PHB| sleet storm} (sheets of freezing rain), you have disadvantage on the check if the spell's radius includes the viewer (since the viewer would realize that the spell's effects are intangible), or if they noticed that the spell did not create wet ground (since that contradicts the nature of the spell.) If you succeed, the target believes that you cast the spell."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Master Thrower",
+            "source": "FftF",
+            "prerequisite": [
+                {
+                    "ability":[
+                        {
+                            "dex": 13
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                "You are an expert in using thrown weapons. You gain the following benefits:",
+                {
+                    "type": "list",
+                    "items": [
+                        "When you take the {@action Attack} action on your turn, you can use a bonus action to make a ranged attack with a thrown weapon.",
+                        "When you make a ranged weapon attack, you can draw the weapon as part of the attack. You can draw any number of weapons in this fashion each round.",
+                        "The short and long ranges of your thrown weapons doubles."
+                    ]
+                }
+            ]
         }
     ]
 }
